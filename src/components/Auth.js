@@ -16,7 +16,7 @@ const Auth = () => {
             <section>
                 <form onSubmit={loginHandler}>
                     <div className={classes.control}>
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">Email.</label>
                         <input type="email" id="email"></input>
                     </div>
                     <div className={classes.control}>
